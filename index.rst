@@ -33,6 +33,12 @@ vMap est une application de webmaping permettant l'affichage de cartes géograph
 
 
 .. toctree::
+   :maxdepth: 2
+
+   modules/index.rst
+
+
+.. toctree::
    :maxdepth: 3
 
    developpeur/index.rst

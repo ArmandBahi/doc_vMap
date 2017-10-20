@@ -15,9 +15,20 @@ Le bouton Carte ![](../images/bouton_carte.png) permet de déployer :
 - la table des matières
 - la légende 
 - les jeux de données affichés sur la carte en cours
-- le Gestionnaire des cartes. Le gestionnaire de carte permet de sélectionner la carte à afficher et d'y opérer des opérations d'ajout de couches à la volée.
+- le Gestionnaire des cartes. Le gestionnaire de carte permet de sélectionner la carte à afficher et d'y opérer des opérations d'ajout de couches à la volée. Les couches peuvent être issues de service ou de fichier local
 
 ![](../images/gestionnaire_carte.png)
+
+L'ajout de couches dépend des services sélectionnés. L'ajout de l'url du service permet un ajout à la volée de la couche sur la carte en cours. 
+Il est possible d'ajouter des fichiers locaux dont à télécharger au format  : 
+
+- KML
+- TopoJSON
+- IGC
+- GeoJSON
+- GPX
+
+Le nom de la couche est facultatif. C'est le nom affiché dans le jeu de données et la table des matières. Si aucun nom de couche n'est fourni, alors le nom du fichier set son extension est affiché. 
 
 
 
